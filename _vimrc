@@ -13,6 +13,7 @@ vnoremap <up> <nop>
 vnoremap <down> <nop>
 vnoremap <left> <nop>
 vnoremap <right> <nop>
+set encoding=utf-8
 
 
 
@@ -55,7 +56,7 @@ Bundle 'EasyMotion'
 "Bundle 'davidhalter/jedi-vim'
 Bundle 'closetag.vim'
 Bundle 'octol/vim-cpp-enhanced-highlight'
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 Bundle "dsolstad/vim-wombat256i"
 Bundle "klen/python-mode"
 Bundle "vim-airline/vim-airline"
@@ -65,7 +66,6 @@ if iVundleInstalled == 0
     echo "Installing Bundles, please ignore key map error messages"
     echo ""
     :BundleInstall
-    silent ! cd ~/.vim/bundle/YouCompleteMe; ./install.sh --clang-completer
 endif
 " Setting up Vundle - the vim plugin bundler end
 
