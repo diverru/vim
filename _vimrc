@@ -14,6 +14,7 @@ vnoremap <down> <nop>
 vnoremap <left> <nop>
 vnoremap <right> <nop>
 set encoding=utf-8
+set wrap
 
 
 
