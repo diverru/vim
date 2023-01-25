@@ -84,7 +84,6 @@ filetype plugin indent on     " required!
 
 set shellpipe=2>&1\ \|\ tee " Output for :make (????)
 set number " Включает отображение номеров строк
-set nowrap " Отключить перенос строк
 
 set undofile "файлы с историей действий (для отмены)
 set undodir=~/.vim/vimundo
